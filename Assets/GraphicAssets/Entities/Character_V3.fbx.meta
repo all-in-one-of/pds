@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 048af48728d5914458c8a4a9916eed2c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chara_Joint_Grp
+    100002: Chara_Mesh
+    100004: //RootNode
+    100006: HeadTip_Joint
+    100008: Hips_Joint
+    100010: Left_ArmTip_Joint
+    100012: Left_ForeArm_Joint
+    100014: Left_LegTip_Joint
+    100016: Left_LowerLeg_Joint
+    100018: Left_Thigh_Joint
+    100020: Left_UpperArm_Joint
+    100022: Neck_Joint
+    100024: Right_ArmTip_Joint
+    100026: Right_ForeArm_Joint
+    100028: Right_LegTip_Joint
+    100030: Right_LowerLeg_Joint
+    100032: Right_Thigh_Joint
+    100034: Right_UpperArm_Joint
+    100036: Torso_Joint
+    400000: Chara_Joint_Grp
+    400002: Chara_Mesh
+    400004: //RootNode
+    400006: HeadTip_Joint
+    400008: Hips_Joint
+    400010: Left_ArmTip_Joint
+    400012: Left_ForeArm_Joint
+    400014: Left_LegTip_Joint
+    400016: Left_LowerLeg_Joint
+    400018: Left_Thigh_Joint
+    400020: Left_UpperArm_Joint
+    400022: Neck_Joint
+    400024: Right_ArmTip_Joint
+    400026: Right_ForeArm_Joint
+    400028: Right_LegTip_Joint
+    400030: Right_LowerLeg_Joint
+    400032: Right_Thigh_Joint
+    400034: Right_UpperArm_Joint
+    400036: Torso_Joint
+    2100000: lambert1
+    4300000: Chara_Mesh
+    7400000: Shoot
+    9500000: //RootNode
+    13700000: Chara_Mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 206
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chara_Joint_Grp
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint
+        weight: 1
+      - path: Chara_Joint_Grp/Hips_Joint/Left_Thigh_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Left_Thigh_Joint/Left_LowerLeg_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Left_Thigh_Joint/Left_LowerLeg_Joint/Left_LegTip_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Right_Thigh_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Right_Thigh_Joint/Right_LowerLeg_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Right_Thigh_Joint/Right_LowerLeg_Joint/Right_LegTip_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint
+        weight: 1
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Left_UpperArm_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Left_UpperArm_Joint/Left_ForeArm_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Left_UpperArm_Joint/Left_ForeArm_Joint/Left_ArmTip_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Neck_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Neck_Joint/HeadTip_Joint
+        weight: 0
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Right_UpperArm_Joint
+        weight: 1
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Right_UpperArm_Joint/Right_ForeArm_Joint
+        weight: 1
+      - path: Chara_Joint_Grp/Hips_Joint/Torso_Joint/Right_UpperArm_Joint/Right_ForeArm_Joint/Right_ArmTip_Joint
+        weight: 1
+      - path: Chara_Mesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
